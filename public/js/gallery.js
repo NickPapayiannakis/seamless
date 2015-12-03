@@ -18,10 +18,6 @@
           '<div class="card-image firebaseImage">' +
             '<img src= '+ imageData.src +' />' +
           '</div>' +
-          '<div class="card-action">' +
-            '<a href="#">Link1</a>' +
-            '<a href="#">Link2</a>' +
-          '</div>'
         '</div>' 
 
       var imageTemplate = Handlebars.compile(imageSource);
