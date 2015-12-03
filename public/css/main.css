@@ -40,6 +40,10 @@ ol > li {
   color: #EEF5DB;
 }
 
+.toast {
+  background-color: #FE5F55;
+}
+
 .card {
   background-color: #fff;
   padding: 40px 10px 10px 10px;
