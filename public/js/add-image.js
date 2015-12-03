@@ -32,6 +32,7 @@
       $('#login').hide();
       $('#logout').show();
     };
+  })
 
 
   context.font = "20px Helvetica";
@@ -389,5 +390,4 @@
     var imageData = context.getImageData(0,0,canvas.width, canvas.height); 
     saveToFirebase(imageData.data);
   };
-})
 })();
