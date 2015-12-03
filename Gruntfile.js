@@ -59,7 +59,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'public/dist/style.min.css': 'public/style.css'
+          'public/dist/main.min.css': 'public/css/main.css'
         }
       }
           },
@@ -106,7 +106,6 @@ module.exports = function(grunt) {
 
 
   grunt.registerTask('default', [
-    'test',
-    'build',
+    'build'
   ]);
 };
