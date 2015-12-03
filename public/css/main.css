@@ -30,6 +30,10 @@ ol > li {
   background-color: #e6ebe0;
 }
 
+.thumb {
+  display: none;
+}
+
 #mainlogo {
   padding: 70px 0;
   background-color: #FE5F55;
