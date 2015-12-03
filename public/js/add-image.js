@@ -175,7 +175,7 @@
     canvas.width = WIDTH;
     canvas.height = HEIGHT;
 
-    updateSliders();
+    //updateSliders(); Commented out to prevent disruption of form UI.
 
     var imageData = context.createImageData(WIDTH, HEIGHT);
     for (var k = 0; k < data.length; k++) {
@@ -279,10 +279,10 @@
 
     // document.querySelector('.url').style.display = 'none';
 
-    horizontalSlider.style.width = WIDTH + 'px';
-    verticalSlider.style.width = HEIGHT + 'px';
+    //horizontalSlider.style.width = WIDTH + 'px';
+    //verticalSlider.style.width = HEIGHT + 'px';
 
-    verticalSlider.style.top = (HEIGHT / 2) + 'px';
+    //verticalSlider.style.top = (HEIGHT / 2) + 'px';
 
     // draw image to context
     context.drawImage(image, 0, 0);
