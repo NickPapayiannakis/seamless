@@ -2,9 +2,9 @@
   "name": "Seamless",
   "version": "0.1.0",
   "description": "seam-carving application",
-  "main": "app/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app/index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

@@ -13,6 +13,8 @@ var getUid = function(authData){
 
 
 var login = function(){
+  $('#login').hide();
+  $('#logout').show();
   ref.authWithOAuthPopup('google',function(error, authData) {
     if (error) {
       console.log('Login Failed!', error);
@@ -27,13 +29,11 @@ var login = function(){
   }, {remember: 'default'});
 };
 
-var logout = function(){
-  console.log('logging user out')
-  ref.unauth();
-};
 
 var logout = function(){
   ref.unauth();
+  $('#logout').hide();
+  $('#login').show();
   console.log('logged out')
 };
 
