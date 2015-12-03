@@ -362,6 +362,7 @@
           });
         };
       });
+      Materialize.toast('Saved!', 4000);
   };
 
   function onUndoClick() {
