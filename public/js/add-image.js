@@ -21,6 +21,19 @@
   var origWidth;
   var origHeight;
 
+
+  //Button behavior for sign in and sign out
+
+  ref.onAuth(function(authData){
+    if(!authData){
+      $('#login').show();
+      $('#logout').hide();
+    } else {
+      $('#login').hide();
+      $('#logout').show();
+    };
+
+
   context.font = "20px Helvetica";
   context.fillText('Drag an image', 80, 80);
 
@@ -376,4 +389,5 @@
     var imageData = context.getImageData(0,0,canvas.width, canvas.height); 
     saveToFirebase(imageData.data);
   };
+})
 })();
