@@ -17,12 +17,12 @@ function deleteBtn(e) {
       var imageData = new Image();
 
       imageData.src = snapObj[key]['pic'];
-      var imageSource = '<div class="card-small right">' +
+      var imageSource = '<div class="card-medium">' +
       '<div class="card-image firebaseImage center">' +
           '<img src= '+ imageData.src +' />' +
         '</div>' +
         '</div class="card-action">' +
-          '<p class="waves-effect waves-light btn-flat right" id="' + key + '"onClick="deleteBtn(this.id)">Delete</p>' +
+          '<p class="waves-effect waves-light btn right" id="' + key + '"onClick="deleteBtn(this.id)">Delete</p>' +
         '</div>'
       '</div>'
 
