@@ -186,6 +186,8 @@
     canvas.height = HEIGHT;
 
     //updateSliders(); Commented out to prevent disruption of form UI.
+    horizontalSlider.value = 100;
+    verticalSlider.value = 100;
 
     var imageData = context.createImageData(WIDTH, HEIGHT);
     for (var k = 0; k < data.length; k++) {
