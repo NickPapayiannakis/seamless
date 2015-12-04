@@ -1,7 +1,3 @@
-/**
- * Created by VicYork on 11/17/15.
- */
-
 (function () {
   /*
    Initialize main variables for image use, canvas for getting data
